@@ -10,6 +10,9 @@ export default {
     output: {
         name: 'MyComponent',
         exports: 'named',
+        globals: {
+            vue: 'Vue',
+        },
     },
     plugins: [
         commonjs(),
