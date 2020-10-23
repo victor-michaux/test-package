@@ -1,6 +1,6 @@
 {
   "name": "@victor-michaux/vuecomp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "repository": "git://github.com/victor-michaux/test-package.git",
   "main": "dist/my-component.umd.js",
