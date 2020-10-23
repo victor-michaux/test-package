@@ -3,6 +3,9 @@ import postcss from 'rollup-plugin-postcss'
 
 export default {
     input: './main.js',
+    external: [
+        'vue'
+    ],
     output: {
         name: 'MyComponent',
         exports: 'named',
